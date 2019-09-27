@@ -1,11 +1,11 @@
-function submitForm() {
+function submitForm(e) {
   let email = $("#email").val();
   let password = $("#password").val();
   let telephone = $("#telephone").val();
   let city = $("#city").val();
   let country = $("#country").val();
   if(!email || !password || !telephone || !city || !country ){
-    console.log(email);
+    console.log(email, password, telephone, city, country);
     $.toast({
       text: "Digite todos os campos",
       showHideTransition: 'fade',  // It can be plain, fade or slide
@@ -68,4 +68,5 @@ function submitForm() {
         position: 'bottom-right'       // bottom-left or bottom-right or bottom-center or top-left or top-right or top-center or mid-center or an object representing the left, right, top, bottom values to position the toast on page
       })
     })
+    
 }

@@ -55,6 +55,7 @@ a:hover {
   border: none;
   text-decoration: none;
   color: #ffffff;
+  box-shadow: 0px 1px 5px 5px rgba(0,0,0,0.15);
 }
 
 main {
@@ -157,13 +158,15 @@ main div li button {
 .button-white {
   border: none;
   background-color: #FFFFFF;
+  box-shadow: 0px 1px 5px 5px rgba(0,0,0,0.15);
 }
 
-.passado {
+.past {
   border-color: white;
   width: 320px !important;
   background-color: rgba(255, 255, 255, 0);
   color: #FFFFFF;
+  box-shadow: 0px 1px 5px 5px rgba(0,0,0,0.15);
 }
 
 @media screen and (max-height: 568px) and (max-width:320px) {
