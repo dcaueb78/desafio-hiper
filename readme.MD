@@ -2,7 +2,7 @@
 
 ## Utilizando html:5 e CSS:3 ao máximo.
 
-#Dependências: #
+## Dependências: ##
 
 **Bootstrap:** ```4.3.1```
 **Jquery:** ```3.4.1```
