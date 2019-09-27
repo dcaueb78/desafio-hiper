@@ -1,0 +1,252 @@
+body, ul, li, p, button {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-size: 1.2rem;
+  font-family: Arial;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(168, 168, 168);
+  font-weight: lighter;
+}
+
+a:hover {
+  color: rgb(117, 117, 117);
+}
+
+.header {
+  background: #FFFFFF;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  flex: 1 1 200px;
+  flex-wrap: wrap;
+}
+
+.menu li {
+  margin-left: 10px;
+}
+
+.menu button {
+  margin-left: 10px;
+}
+
+.menu li a {
+  display: block;
+  padding: 10px;
+  /* background: tomato; */
+}
+.subscribe-a{
+  padding: 0px !important;
+}
+
+.menu li button {
+  display: block;
+  padding: 10px;
+  background-image: linear-gradient(to right, #972cee 10%, #55c1ff 100%);
+  border: none;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+main {
+  background-image: url(../img/background.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.subscribe {
+  border-radius: 50px;
+  width: 220px;
+  height: 55px;
+  margin-top: -5px;
+  cursor: pointer;
+}
+
+.subscribe:hover {
+  background-position: right center;
+}
+
+.subscribe p {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+#first-block {
+  display: flex;
+  flex-direction: column;
+}
+
+main div div {
+  margin-top: 1vh;
+  margin-right: 2vw;
+  text-align: end;
+  display: grid;
+  justify-content: end;
+}
+
+.first {
+  margin-top: 5vw;
+}
+
+main div div p {
+  background: rgba(0, 0, 0, 0.521);
+  color: white;
+  font-weight: bold;
+  padding-left: -1vw;
+}
+
+.lign-1 {
+  font-size: 4.5vw;
+  width: 32vw;
+  height: 12vh;
+}
+
+.lign-2 {
+  font-size: 4.5vw;
+  width: 52vw;
+  height: 12vh;
+}
+
+.lign-3 {
+  font-size: 4.5vw;
+  width: 62vw;
+  height: 12vh;
+}
+
+main div li button {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #8c0f9c;
+  font-size: 50px !important;
+}
+
+#buttons-section {
+  justify-content: center;
+  display: grid;
+  margin-top: 17.5vw;
+  flex-direction: row;
+}
+
+.buttons {
+  display: flex;
+  flex: 1 1 200px;
+  flex-wrap: wrap;
+}
+
+.buttons li {
+  margin-left: 10px;
+}
+
+.buttons button {
+  margin-left: 10px;
+}
+
+.button-white {
+  border: none;
+  background-color: #FFFFFF;
+}
+
+.passado {
+  border-color: white;
+  width: 320px !important;
+  background-color: rgba(255, 255, 255, 0);
+  color: #FFFFFF;
+}
+
+@media screen and (max-height: 568px) and (max-width:320px) {
+  main div div p {
+    height: 25px !important;
+    font-size: 14px !important;
+  }
+  .buttons li button {
+    width: 120px !important;
+  }
+  .buttons li button p {
+    font-size: 14px;
+  }
+  main {
+    height: 250px;
+    background-color: rgb(175, 11, 175);
+  }
+}
+
+@media screen and (min-width:360px) and (min-height:640px) and (max-width:640px) {
+  main div div p {
+    height: 30px !important;
+    font-size: 16px !important;
+  }
+  .buttons li button {
+    width: 155px !important;
+  }
+  .buttons li button p {
+    font-size: 16px;
+  }
+  main {
+    height: 350px;
+    background-color: rgb(175, 11, 175);
+  }
+}
+
+@media screen and (min-width:411px) and (min-height:731px) and (max-width: 730px) {
+  main div div p {
+    height: 30px !important;
+    font-size: 18px !important;
+  }
+  .buttons li button {
+    width: 155px !important;
+  }
+  .buttons li button p {
+    font-size: 18px;
+  }
+  main {
+    height: 350px;
+    background-color: rgb(175, 11, 175);
+  }
+}
+
+@media screen and (min-width:375px) and (min-height:667px) and (max-width: 730px) {
+  main div div p {
+    height: 30px !important;
+    font-size: 18px !important;
+  }
+  .buttons li button {
+    width: 155px !important;
+  }
+  .buttons li button p {
+    font-size: 18px;
+  }
+  main {
+    height: 350px;
+    background-color: rgb(175, 11, 175);
+  }
+}
+
+@media screen and (min-width:768px) and (min-height:1024px) and (max-width: 1025px) {
+  main div div p {
+    height: 50px !important;
+    font-size: 30px !important;
+  }
+  .buttons li button {
+    width: 250px !important;
+  }
+  .buttons li button p {
+    font-size: 20px;
+  }
+  main {
+    height: 1024px;
+    background-color: rgb(175, 11, 175);
+  }
+}

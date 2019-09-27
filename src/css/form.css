@@ -1,0 +1,75 @@
+body, ul, li, p, button {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-size: 1.2rem;
+  font-family: Arial;
+}
+
+a {
+  text-decoration: none !important;
+  color: rgb(168, 168, 168) !important;
+  font-weight: lighter;
+}
+
+a:hover {
+  color: rgb(117, 117, 117) !important;
+}
+
+.header {
+  background: #FFFFFF;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  flex: 1 1 200px;
+  flex-wrap: wrap;
+}
+
+.menu li {
+  margin-left: 10px;
+}
+
+.menu button {
+  margin-left: 10px;
+}
+
+.menu li a {
+  display: block;
+  padding: 10px;
+  /* background: tomato; */
+}
+
+.menu li button {
+  display: block;
+  padding: 10px;
+  background-image: linear-gradient(to right, #972cee 10%, #55c1ff 100%);
+  border: none;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+
+.subscribe {
+  border-radius: 50px;
+  width: 220px;
+  height: 55px;
+  margin-top: -5px;
+  cursor: pointer;
+}
+
+.subscribe:hover {
+  background-position: right center;
+}
+
+.subscribe p {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
